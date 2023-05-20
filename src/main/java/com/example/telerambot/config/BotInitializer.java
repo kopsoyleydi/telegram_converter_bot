@@ -1,6 +1,5 @@
 package com.example.telerambot.config;
 
-import com.example.telerambot.service.RequestService;
 import com.example.telerambot.service.SpringDemoConverterBot;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;

@@ -4,21 +4,22 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.sql.Timestamp;
+
 @Entity
-@Table(name = "messages")
+@Table(name = "users")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class TelegramDatas {
         @Id
-        @GeneratedValue(strategy = GenerationType.IDENTITY)
-        @Column(name = "id")
-        private Long id;
-
-        @Column(name = "chat_id")
         private Long chatId;
-        @Column(name = "message")
-        private String message;
-        @Column(name = "result")
-        private String result;
+
+        private String firstName;
+
+        private String lastName;
+
+        private String userName;
+
+        private Timestamp registeredAt;
 }
