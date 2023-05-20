@@ -45,7 +45,7 @@ public class SpringDemoConverterBot extends TelegramLongPollingBot {
     static final String YES_BUTTON = "YES_BUTTON";
     static final String NO_BUTTON = "NO_BUTTON";
 
-    static final String ERROR_TEXT = "Error occurred: ";
+    static final String ERROR_TEXT = "Error occurred:  ";
 
     public SpringDemoConverterBot(BotConfig config) {
         this.config = config;
