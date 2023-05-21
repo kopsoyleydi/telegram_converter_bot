@@ -43,6 +43,7 @@ public class SpringDemoConverterBot extends TelegramLongPollingBot {
             "Type /help to see this message again";
 
     static final String YES_BUTTON = "YES_BUTTON";
+
     static final String NO_BUTTON = "NO_BUTTON";
 
     static final String ERROR_TEXT = "Error occurred:  ";
